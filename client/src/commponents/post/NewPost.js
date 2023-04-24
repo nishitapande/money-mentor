@@ -1,13 +1,13 @@
 import React from "react";
 import "./NewPost.css";
-import img1 from "../../assets/post.jpg";
+import img1 from "../../assets/hero-img-2.jpg";
 
 function NewPost() {
   return (
     <div className="new-post">
       <div className="post-box">
         <div className="post">
-          <div className="img-box">
+          <div className="img-box-new-post">
             <img src={img1} className="post-img" alt="image" />
           </div>
           <div className="text-box">

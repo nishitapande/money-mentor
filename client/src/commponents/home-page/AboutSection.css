@@ -1,29 +1,44 @@
-
-.hero{
+/* .hero-section{
+    background-color: aqua;
+} */
+.about-section{
+    margin-top: 4rem;
+}
+.about{
     margin: 0 13rem;
     display: flex;
+    flex-direction: row-reverse;
     gap: 20rem;
 }
-.text-box{
+.text-box-about{
     max-width: 60rem;
-    margin: 2rem 0;
+    margin: 8rem 0 2rem;
 }
 .hero-text-box{
-    margin-top: 0rem;
+    margin-top: 10rem;
 }
 
-.primary-heading-hero{
+/* .primary-heading-hero{
     font-size: 4.8rem;
     font-weight: 700;
     letter-spacing: 4%;
     color: #333;
     margin-bottom: .2rem;
+} */
+.secondary-heading-about{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #333;
 }
-.heading-para{
+.heading-para-about{
+    font-size: 2.4rem;
+    color: #394867;
+}
+/* .heading-para{
     font-size: 2.4rem;
     font-weight: 700;
     color: #394867;
-}
+} */
 .hero-para{
     font-size: 1.8rem;
     letter-spacing: 4%;
@@ -60,11 +75,10 @@
     background-color:#9ACEFF ;
     color: black;
 }
-.img-box-hero{
-    
+.img-box-about{
+    margin: 2rem 01rem;
 }
 .img-hero{
     width: 45rem;
     height: 40rem;
-    margin: 8rem 0 8rem;
 }

@@ -1,0 +1,6 @@
+.post-section{
+    display: flex;
+    margin: 1rem 13rem;
+    gap: 3rem;
+    justify-content: center;
+}

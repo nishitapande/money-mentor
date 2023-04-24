@@ -14,7 +14,7 @@ function NavBar() {
       <div className="nav-bar">
         <a href="#" className="logo">
           {" "}
-          Logo
+          MoneyMentor
           {/* <limg src={img2} /> */}
         </a>
         <div className="links-box">

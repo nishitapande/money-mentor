@@ -1,9 +1,13 @@
 import React from 'react'
+import Post from "../commponents/post/Post";
 
 function Blogs() {
   return (
-    <div>Blogs</div>
-  )
+    <>
+      <Post />
+      <Post />
+    </>
+  );
 }
 
 export default Blogs
