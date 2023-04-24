@@ -2,9 +2,11 @@ import "./App.css";
 import NavBar from "./commponents/NavBar";
 
 import Home from "./pages/Home";
+
 //import Login from "./components/Login";
 import CreatePost from "./pages/CreatePostPage.js";
 import Blogs from "./pages/Blogs";
+import Footer from "./commponents/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Auth0Provider } from "@auth0/auth0-react";
 function App() {
@@ -25,6 +27,7 @@ function App() {
             <Route path="/writeblog" element={<CreatePost />} />
             <Route path="/blogs" element={<Blogs />} />
           </Routes>
+          <Footer />
         </div>
       </Router>
     </Auth0Provider>

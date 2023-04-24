@@ -1,13 +1,13 @@
 .new-post{
     margin: 2rem;
-   }
+}
    .post-box{
        max-width: 35rem;
-       background-color: aqua;
-       border: 1px solid #000;
+       background-color: #ebf5ff;
+       border: 1px solid #ebf5ff;
        border-radius: 2rem;
        display: flex;
-   transition: all 0.3s;
+       transition: all 0.3s;
    }
    .post-box:hover{
        transform: translateY(1rem);
@@ -15,6 +15,9 @@
    .post{
        display: flex;
        flex-direction: column;
+   }
+   .img-box-new-post{
+    margin:0 ;
    }
    .post-img{
        width: 35rem;
@@ -29,9 +32,10 @@
    .secondary-heading{
        font-size: 2.6rem;
        margin: .5rem 0 1rem;
+       color: #333;
    
    }
    .para{
-       color: #000;
+       color: #444;
        font-size: 1.8rem;
    }

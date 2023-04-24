@@ -1,0 +1,22 @@
+.footer{
+    background-color: aquamarine;
+}
+.footer-des{
+    margin: 0 13rem;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.quick-links{
+    display: flex;
+    flex-direction: column;
+}
+.links,
+.links:link,
+.links:visited{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
