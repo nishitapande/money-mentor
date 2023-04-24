@@ -1,6 +1,6 @@
 import "./App.css";
 import NavBar from "./commponents/NavBar";
-// import NavBar from "./components/NavBar";
+
 import Home from "./pages/Home";
 //import Login from "./components/Login";
 import CreatePost from "./pages/CreatePostPage.js";

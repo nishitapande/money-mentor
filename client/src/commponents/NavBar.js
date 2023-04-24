@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-
+import "./NavBar.css";
+import img1 from "../assets/profile-img.png";
+import LoginButton from "./login/LoginButton";
+import LogoutButton from "./login/LogOutButton";
+import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 
 function NavBar() {

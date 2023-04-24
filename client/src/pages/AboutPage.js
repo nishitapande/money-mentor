@@ -1,0 +1,11 @@
+import React from "react";
+
+function AboutPage() {
+  return (
+    <div>
+      <div>About Page</div>
+    </div>
+  );
+}
+
+export default AboutPage;
