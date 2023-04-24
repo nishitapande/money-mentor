@@ -1,0 +1,37 @@
+.new-post{
+    margin: 2rem;
+   }
+   .post-box{
+       max-width: 35rem;
+       background-color: aqua;
+       border: 1px solid #000;
+       border-radius: 2rem;
+       display: flex;
+   transition: all 0.3s;
+   }
+   .post-box:hover{
+       transform: translateY(1rem);
+   }
+   .post{
+       display: flex;
+       flex-direction: column;
+   }
+   .post-img{
+       width: 35rem;
+       height: 25rem;
+       border-top-left-radius: 2rem;
+       border-top-right-radius: 2rem;
+   
+   }
+   .text-box{
+       margin: 0 .6rem;
+   }
+   .secondary-heading{
+       font-size: 2.6rem;
+       margin: .5rem 0 1rem;
+   
+   }
+   .para{
+       color: #000;
+       font-size: 1.8rem;
+   }

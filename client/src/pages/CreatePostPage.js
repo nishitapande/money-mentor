@@ -1,9 +1,12 @@
 import React from 'react'
+import CreateBlog from "../commponents/create-blog/CreateBlog";
 
 function CreatePostPage() {
   return (
-    <div>CreatePostPage</div>
-  )
+    <>
+      <CreateBlog />
+    </>
+  );
 }
 
 export default CreatePostPage
